@@ -2,27 +2,18 @@
 .venv/
 venv/
 
+# PyCharm
+.idea/
+
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Environment Variables
+# Environment variables
 .env
 
-# IDE
-.idea/
-.vscode/
-
-# Operating System
+# OS files
 .DS_Store
 Thumbs.db
-
-# Python packaging
-build/
-dist/
-*.egg-info/
-
-# Logs
-*.log
