@@ -10,12 +10,11 @@ template=ChatPromptTemplate(
         ("human", "{question}")
     ]
 )
-
-result=template.invoke(
-    {
-        "meeting_minutes": meeting_minutes(),
-        "question":input("Question: ")
-    }
-)
-
-print(result)
+def prompt_template(question):
+    result=template.invoke(
+        {
+            "meeting_minutes": meeting_minutes(),
+            "question": question
+        }
+    )
+    return result

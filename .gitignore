@@ -1,0 +1,28 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
