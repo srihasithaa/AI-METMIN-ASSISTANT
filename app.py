@@ -1,5 +1,5 @@
 from loaders import meeting_minutes
-from chain import conversation_chain
+from chains import conversation_chain
 
 meeting_content=meeting_minutes()
 while True:
