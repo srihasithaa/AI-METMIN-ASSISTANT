@@ -1,0 +1,26 @@
+Project Phoenix Weekly Meeting
+
+Date: July 5
+
+Attendees:
+Alice
+Bob
+Charlie
+
+Agenda
+
+Backend migration
+Authentication
+Deployment
+
+Discussion
+
+The team agreed to migrate the backend from SQLite to PostgreSQL.
+
+Alice will complete the migration before July 20.
+
+Bob will improve authentication using JWT.
+
+Charlie will deploy the application using Docker.
+
+The next meeting is scheduled for July 12.
